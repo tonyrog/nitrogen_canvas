@@ -1,0 +1,11 @@
+{application, nitrogen_canvas,
+ [
+  {description, "HTML5 Canvas support for nitrogen"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
